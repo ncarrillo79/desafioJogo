@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo mundo de coronga</title>
+  </head>
+  <body>
+    <script>
+      alert('Ricardo Acorda no mundo da Coronga');
+      let condicao = prompt('sai de casa?\n1-si\n2-no');
+      function reload() {
+        document.location.reload(true);
+      }
+
+      if (condicao == '1') {
+        alert('vocẽ pegou covid e morreu');
+        reload();
+      } else if (condicao == '2') {
+        alert('vai pro PC e aprenda a programar');
+        var condicao2 = prompt('Fez os projetos e exercicios?\n1-si\n2-no');
+        alert('criou portafólio, fez entrevista e pasou!');
+      } else if (condicao2 == '2') {
+        alert('Não conseguiou fazer case das entrevistas');
+        reload();
+      } else {
+        alert('que isso?');
+        reload();
+      }
+    </script>
+  </body>
+</html>
